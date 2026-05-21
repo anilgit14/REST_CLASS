@@ -7,7 +7,6 @@ app.use(methodOverride('_method'))
 
 const { v4: uuidv4 } = require("uuid");
 
-
 app.use(express.urlencoded({extended:true}));
 
 app.set("view engine","ejs");
